@@ -4,47 +4,87 @@
 <meta charset="utf-8">
 <title>minus9</title>
 <style>
-.keyImage {
+body {
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+.mainBox {
+	background-color: #524942;
 	width: 100%;
 }
+.keyImage {
+	width: 100%;
+	background-color: black;
+	position: relative;
+	top: 0px
+}
 .navBox {
-	margin: 0;
+	background-color: red ;
+	width: 100% ;
+	padding: 10px;
 }
 .navBox ul {
+	margin: 0 ;
+	padding:  0 ;
+	width: 60% ;
 	list-style-type: none;
-	padding: 0;
+	/*justify-content: space-between;*/
 	display: flex;
-	width: 600px;
-	justify-content: space-between;
+	
+	
 }
 .navBox li {
+	margin:  0 ;
+	padding:  0 ;
+	position: ;
+	height: 10px ;
+	background-color: blue ;
 	color: white;
+	font-size: 17px ;
+	font-family: "M+ 1p";
+	letter-spacing: 10px;
+	left: 10px ;
+	padding-right: 5%;
+	padding-left: 5%;
+	border-left: solid 1px;
+	
 }
+	.navMenuLine{
+		width: 100% ;
+		height: 100%;
+
+	}
+	h1 {
+		position: absolute; top: 100px;
+		color: white ;
+		font-family: "M+ 2c thin"; 
+	}
+		p {
+		position: absolute; top: 0px;
+		color: white ;
+	}
 </style>
 </head>
 
 <body>
 <header>
-  <nav>
-    <div class="navBox">
+  <nav class="navBox">
       <ul>
         <li>HOME</li>
         <li>WORKS</li>
         <li>ABOUT</li>
         <li>CONTACT</li>
       </ul>
-    </div>
   </nav>
 </header>
 <main> 
 	<img src="images/KeyImage.png" class="keyImage">
-  <div style="position:absolute;">
-    <h1>Minus9<br>
-      .com</h1>
+    <h1><div class="textMinus">MINUS</div><div class="text9">9</div><br>
+      <div class="textCom">.com</div></h1>
     <p>This website is<br>
       Yuya Matoba's <br>
       portfolio.</p>
-  </div>
 </main>
 <footer> </footer>
 </body>
