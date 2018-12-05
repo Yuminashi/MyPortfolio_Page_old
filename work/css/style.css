@@ -1,3 +1,57 @@
 @charset "utf-8";
-/* CSS Document */
 
+* {
+	margin: 0;
+	padding: 0;
+}
+.mainBox {
+	width: 100%;
+}
+.keyImageBox {
+	width: 100%;
+	position: relative;
+	top: 0px
+}
+.keyImageBox img {
+	width: 100%;
+}
+.navLinkBox {
+	background-color: red;
+	width: 100%;
+	padding: 10px;
+}
+.navLinkBox ul {
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	/*list-style-type: none;*/
+	/*justify-content: space-between;*/
+	display: flex;
+}
+.navLinkBox li {
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+	color: white;
+	font-size: 17px;
+	font-family: "M+ 1p";
+	letter-spacing: 10px;
+	/*padding-right: 5%;
+	padding-left: 5%;
+	border-left: solid 1px;*/
+}
+.keyImageBox h1 {
+	position: absolute;
+	top: 100px;
+	color: white;
+	font-family: "M+ 2c thin";
+}
+.keyImageBox p {
+	position: absolute;
+	top: 0px;
+	color: white;
+}
+.contentBox {
+	color: white ;
+	position: relative ;
+}
